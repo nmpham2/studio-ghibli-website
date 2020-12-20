@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/studio-ghibli-website/static/css/main.2051bcb7.chunk.css",
+    "main.js": "/studio-ghibli-website/static/js/main.12fa8e4c.chunk.js",
+    "main.js.map": "/studio-ghibli-website/static/js/main.12fa8e4c.chunk.js.map",
+    "runtime-main.js": "/studio-ghibli-website/static/js/runtime-main.a7e63860.js",
+    "runtime-main.js.map": "/studio-ghibli-website/static/js/runtime-main.a7e63860.js.map",
+    "static/js/2.72fc8bac.chunk.js": "/studio-ghibli-website/static/js/2.72fc8bac.chunk.js",
+    "static/js/2.72fc8bac.chunk.js.map": "/studio-ghibli-website/static/js/2.72fc8bac.chunk.js.map",
+    "index.html": "/studio-ghibli-website/index.html",
+    "static/css/main.2051bcb7.chunk.css.map": "/studio-ghibli-website/static/css/main.2051bcb7.chunk.css.map",
+    "static/js/2.72fc8bac.chunk.js.LICENSE.txt": "/studio-ghibli-website/static/js/2.72fc8bac.chunk.js.LICENSE.txt",
+    "static/media/arrietty.267028a2.png": "/studio-ghibli-website/static/media/arrietty.267028a2.png",
+    "static/media/arrietty.8f8a5487.png": "/studio-ghibli-website/static/media/arrietty.8f8a5487.png",
+    "static/media/castle-in-sky.70b83516.png": "/studio-ghibli-website/static/media/castle-in-sky.70b83516.png",
+    "static/media/castle.0eadb07b.png": "/studio-ghibli-website/static/media/castle.0eadb07b.png",
+    "static/media/howls.b50ea044.png": "/studio-ghibli-website/static/media/howls.b50ea044.png",
+    "static/media/howls.c12f7d5a.jpg": "/studio-ghibli-website/static/media/howls.c12f7d5a.jpg",
+    "static/media/kikis.38eae0ce.png": "/studio-ghibli-website/static/media/kikis.38eae0ce.png",
+    "static/media/kikis.b260df27.jpg": "/studio-ghibli-website/static/media/kikis.b260df27.jpg",
+    "static/media/mononoke.c0c39e5a.png": "/studio-ghibli-website/static/media/mononoke.c0c39e5a.png",
+    "static/media/mononoke.d0631cfc.jpg": "/studio-ghibli-website/static/media/mononoke.d0631cfc.jpg",
+    "static/media/ponyo.244e7dc8.png": "/studio-ghibli-website/static/media/ponyo.244e7dc8.png",
+    "static/media/ponyo.7c893eb8.jpg": "/studio-ghibli-website/static/media/ponyo.7c893eb8.jpg",
+    "static/media/spirited-away.6f26e20f.png": "/studio-ghibli-website/static/media/spirited-away.6f26e20f.png",
+    "static/media/spirited-away.c3d5be32.jpg": "/studio-ghibli-website/static/media/spirited-away.c3d5be32.jpg",
+    "static/media/totoro.5d204ad7.jpg": "/studio-ghibli-website/static/media/totoro.5d204ad7.jpg",
+    "static/media/totoro.66ff3d4e.png": "/studio-ghibli-website/static/media/totoro.66ff3d4e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7e63860.js",
+    "static/js/2.72fc8bac.chunk.js",
+    "static/css/main.2051bcb7.chunk.css",
+    "static/js/main.12fa8e4c.chunk.js"
+  ]
+}
