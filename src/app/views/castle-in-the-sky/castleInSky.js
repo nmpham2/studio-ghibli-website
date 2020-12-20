@@ -1,0 +1,111 @@
+import React, { useState, useEffect } from "react";
+import "./castleInSky.css";
+import { useHistory } from "react-router-dom";
+import { motion } from "framer-motion";
+import moviePoster from './castle.png';
+
+function CastleInTheSky({movie, setMovie}){
+    const history = useHistory();
+
+    useEffect(() => {
+        console.log(movie);
+    }, [movie]);
+
+    function DisplayDescription() {
+        const movieDescription = movie.description;
+        return (
+            <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{
+                opacity: [0, 1],
+            }}
+            transition={{
+                duration: 0.2,
+                delay: 1 * 0.1
+            }}
+            className="display-card">
+            <h2 className="description">
+                { movieDescription }
+            </h2>
+            </motion.div>
+        );
+    }
+
+    function DisplayPoster(){
+        return (
+            <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{
+                opacity: [0, 1],
+            }}
+            transition={{
+                duration: 0.2,
+                delay: 1 * 0.1
+            }}
+            className="display-card">
+            <img src={moviePoster} alt="Movie Poster" className="castle-poster"/>
+            </motion.div>
+        );
+    }
+
+    function renderMovie(){
+        const movieName = movie.title;
+        return(
+            <div>
+                <h1 className="title-castle">{ movieName }</h1>
+            </div>
+        )
+    }
+
+    function DisplayInformation() {
+        const movieDirector = movie.director;
+        const movieProducer = movie.producer;
+        const movieDate = movie.release_date;
+        const movieScore = movie.rt_score;
+        return (
+            <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{
+                opacity: [0, 1],
+            }}
+            transition={{
+                duration: 0.2,
+                delay: 1 * 0.1
+            }}
+            className="display-card">
+            <h3 className="director">
+                Director: { movieDirector }
+            </h3>
+            <h3 className="producer">
+                Producer: { movieProducer }
+            </h3>
+            <h3 className="release_date">
+                Release Date: { movieDate }
+            </h3>
+            <h3 className="rt_score">
+                Rotten Tomato Score: { movieScore }
+            </h3>
+            </motion.div>
+        );
+    }
+
+    function returnToVending(){
+        history.push('/');
+    }
+
+    return (
+        <div className="castle-in-sky">
+            {renderMovie()}
+            <div className="information">
+                {DisplayDescription()}
+                {DisplayPoster()}
+                {DisplayInformation()}
+            </div>
+            <div className="bottom">
+                <button className="return" style={{margin: "10px"}}onClick={returnToVending}>Try Another Drink!</button>
+            </div>
+        </div>
+    );
+}
+
+export default CastleInTheSky;

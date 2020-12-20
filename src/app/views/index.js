@@ -1,0 +1,10 @@
+export { default as VendingPage } from ".//vendingPage";
+export { default as MoviePage } from "./movie-page/moviePage";
+export { default as CastleInTheSky } from "./castle-in-the-sky/castleInSky";
+export { default as SpiritedAway } from "./spirited-away/spiritedAway";
+export { default as PrincessMononoke } from "./princess-mononoke/princessMononoke";
+export { default as Ponyo } from "./ponyo/ponyo";
+export { default as MyNeighborTotoro } from "./my-neighbor-totoro/myNeighborTotoro";
+export { default as KikisDeliveryService } from "./kikis-delivery-service/kikisDeliveryService";
+export { default as HowlsMovingCastle } from "./howls-moving-castle/howlsMovingCastle";
+export { default as Arrietty } from "./arrietty/arrietty";

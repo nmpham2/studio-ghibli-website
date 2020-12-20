@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap');
+
+.vending-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vending-machine{
+    display: relative;
+    position: relative;
+}
+
+.vending-machine img{
+    display: absolute;
+    margin-left:15%;
+    width: 70%;
+}
+
+.machine-name{
+    position:absolute;
+    top:50px;
+    left:219px;
+    animation-name:animated-machine;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-machine{
+    0% {color:white;}
+    25%{color:darkgrey;}
+    50%{color:white;}
+    75%{color:darkgrey;}
+    100%{color:white;}
+}
+
+.castle-pic{
+    position:absolute;
+    top: 80px;
+    left: -99px;
+    animation-name:animated-castle;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-castle{
+    0% {top:80px;}
+    25%{top:75px;}
+    50%{top:80px;}
+    75%{top:75px;}
+    100%{top:80px;}
+}
+
+.spirited-pic{
+    position:absolute;
+    top:29px;
+    left: 43px;
+    animation-name:animated-spirited;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-spirited{
+    0% {top:29px;}
+    25%{top:24px;}
+    50%{top:29px;}
+    75%{top:24px;}
+    100%{top:29px;}
+}
+
+.princess-pic{
+    position:absolute;
+    top: 120px;
+    left: -20px;
+    animation-name:animated-princess;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-princess{
+    0% {top:120px;}
+    25%{top:115px;}
+    50%{top:120px;}
+    75%{top:115px;}
+    100%{top:120px;}
+}
+
+.arrietty-pic{
+    position:absolute;
+    top: 120px;
+    left: 165px;
+    animation-name:animated-arrietty;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-arrietty{
+    0% {top:120px;}
+    25%{top:115px;}
+    50%{top:120px;}
+    75%{top:115px;}
+    100%{top:120px;}
+}
+
+.howls-pic{
+    position:absolute;
+    top: 348px;
+    left: -100px;
+    animation-name:animated-howls;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-howls{
+    0% {top:348px;}
+    25%{top:343px;}
+    50%{top:348px;}
+    75%{top:343px;}
+    100%{top:348px;}
+}
+
+.kikis-pic{
+    position:absolute;
+    top: 297px;
+    left: 115px;
+    animation-name:animated-kikis;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-kikis{
+    0% {top:297px;}
+    25%{top:292px;}
+    50%{top:297px;}
+    75%{top:292px;}
+    100%{top:297px;}
+}
+
+.ponyo-pic{
+    position:absolute;
+    top: 167px;
+    left: -180px;
+    animation-name:animated-ponyo;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-ponyo{
+    0% {top:167px;}
+    25%{top:162px;}
+    50%{top:167px;}
+    75%{top:162px;}
+    100%{top:167px;}
+}
+
+.totoro-pic{
+    position:absolute;
+    top: 80px;
+    left: 100px;
+    animation-name:animated-totoro;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animated-totoro{
+    0% {top:80px;}
+    25%{top:75px;}
+    50%{top:80px;}
+    75%{top:75px;}
+    100%{top:80px;}
+}
+
+.vending-machine .btn1{
+    position: absolute;
+    margin-top: 29%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px;
+}
+
+.vending-machine .btn2{
+    position: absolute;
+    margin-top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px; 
+}
+
+.vending-machine .btn3{
+    position: absolute;
+    margin-top: 29%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px; 
+}
+
+.vending-machine .btn4{
+    position: absolute;
+    margin-top: 48.6%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px; 
+}
+
+.vending-machine .btn5{
+    position: absolute;
+    margin-top: 48.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px; 
+}
+
+.vending-machine .btn6{
+    position: absolute;
+    margin-top: 48.6%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px; 
+}
+
+.vending-machine .btn7{
+    position: absolute;
+    margin-top: 67.3%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px; 
+}
+
+.vending-machine .btn8{
+    position: absolute;
+    margin-top: 67.3%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 8px;
+    width: 20px;
+    border-radius: 12px; 
+}
+
+h1 {
+    border-right: solid 3px white;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    color: cadetblue;
+    font-size: 40px;
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+        animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes blink {
+    0% {background-color: white; top:0px;}
+    25% {background-color: cadetblue; top:0px;}
+    50% {background-color: white; top:0px;}
+    75% {background-color: cadetblue; top:0px;}
+    100% {background-color: white; top:0px;}
+}
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 635px;}
+  }
+  
+@keyframes animated-cursor{
+    from{border-right-color: cadetblue;}
+    to{border-right-color: transparent;}
+  }

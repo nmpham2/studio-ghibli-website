@@ -1,0 +1,103 @@
+.title-princess {
+    border-right: solid 3px white;
+    white-space:nowrap;
+    overflow:hidden;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    color: cadetblue;
+    font-size: 40px;
+    animation: animated-text-princess-mononoke 4s steps(29,end) 1s 1 normal both,
+        animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text-princess-mononoke{
+    from{width: 0;}
+    to{width: 378px;}
+  }
+
+.princess-mononoke {
+    height: 100vh;
+    position: relative;
+}
+
+.bottom{
+    height: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.return {
+    margin: 0 auto;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    animation-name: animation-princess;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 12px;
+}
+
+@keyframes animation-princess {
+    0% {background-color: white; top:0px;}
+    25% {background-color: cadetblue; top:10px;}
+    50% {background-color: white; top:0px;}
+    75% {background-color: cadetblue; top:10px;}
+    100% {background-color: white; top:0px;}
+}
+
+.display-card {
+    background-color: #defbff;
+    color: black;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 40px;
+    text-decoration: none;
+    transition: 0.5s all;
+    text-align: left;
+    border-radius: 20px;
+    left: 50px;
+    position: relative;
+    display: inline-block;
+}
+  
+.tag {
+      color: white;
+      position: absolute;
+      left: -50px;
+      top: 6px;
+    }
+  
+.display-card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+  }
+
+.mononoke-poster{
+    position: absolute;
+    left: 25px;
+    top: -50px;
+    width: 300px;
+    height: auto;
+}
+
+.director{
+    font-family: 'Nunito', sans-serif;
+    color: #82d9ac;
+}
+
+.producer{
+    font-family: 'Nunito', sans-serif;
+    color: #82d9cf;
+}
+
+.release_date{
+    font-family: 'Nunito', sans-serif;
+    color: #82d9ac;
+}
+
+.rt_score{
+    font-family: 'Nunito', sans-serif;
+    color: #82d9cf;
+}
