@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 // import './App.css';
 
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 
 import { VendingPage } from "./app/views/";
 import { MoviePage } from "./app/views/";
@@ -19,7 +19,7 @@ function App() {
     const [movie, setMovie] = useState([]);
     return (
         <div className='app fill-view'>
-            <Router>
+            <HashRouter basename='/'>
                 <Switch>
                     <Route exact path={"/"}>
                         <VendingPage movie={movie} setMovie={setMovie}/>
@@ -52,7 +52,7 @@ function App() {
                         <KikisDeliveryService movie={movie} setMovie={setMovie}/>
                     </Route>
                 </Switch>
-            </Router>
+            </HashRouter>
         </div>
     );
 }
