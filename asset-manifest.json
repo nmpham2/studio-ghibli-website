@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/studio-ghibli-website/static/css/main.2051bcb7.chunk.css",
-    "main.js": "/studio-ghibli-website/static/js/main.12fa8e4c.chunk.js",
-    "main.js.map": "/studio-ghibli-website/static/js/main.12fa8e4c.chunk.js.map",
+    "main.js": "/studio-ghibli-website/static/js/main.2d98063d.chunk.js",
+    "main.js.map": "/studio-ghibli-website/static/js/main.2d98063d.chunk.js.map",
     "runtime-main.js": "/studio-ghibli-website/static/js/runtime-main.a7e63860.js",
     "runtime-main.js.map": "/studio-ghibli-website/static/js/runtime-main.a7e63860.js.map",
-    "static/js/2.72fc8bac.chunk.js": "/studio-ghibli-website/static/js/2.72fc8bac.chunk.js",
-    "static/js/2.72fc8bac.chunk.js.map": "/studio-ghibli-website/static/js/2.72fc8bac.chunk.js.map",
+    "static/js/2.462cc816.chunk.js": "/studio-ghibli-website/static/js/2.462cc816.chunk.js",
+    "static/js/2.462cc816.chunk.js.map": "/studio-ghibli-website/static/js/2.462cc816.chunk.js.map",
     "index.html": "/studio-ghibli-website/index.html",
     "static/css/main.2051bcb7.chunk.css.map": "/studio-ghibli-website/static/css/main.2051bcb7.chunk.css.map",
-    "static/js/2.72fc8bac.chunk.js.LICENSE.txt": "/studio-ghibli-website/static/js/2.72fc8bac.chunk.js.LICENSE.txt",
+    "static/js/2.462cc816.chunk.js.LICENSE.txt": "/studio-ghibli-website/static/js/2.462cc816.chunk.js.LICENSE.txt",
     "static/media/arrietty.267028a2.png": "/studio-ghibli-website/static/media/arrietty.267028a2.png",
     "static/media/arrietty.8f8a5487.png": "/studio-ghibli-website/static/media/arrietty.8f8a5487.png",
     "static/media/castle-in-sky.70b83516.png": "/studio-ghibli-website/static/media/castle-in-sky.70b83516.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a7e63860.js",
-    "static/js/2.72fc8bac.chunk.js",
+    "static/js/2.462cc816.chunk.js",
     "static/css/main.2051bcb7.chunk.css",
-    "static/js/main.12fa8e4c.chunk.js"
+    "static/js/main.2d98063d.chunk.js"
   ]
 }
