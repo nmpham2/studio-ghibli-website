@@ -1,4 +1,4 @@
-export { default as VendingPage } from ".//vendingPage";
+export { default as VendingPage } from "./vending-page/vendingPage";
 export { default as MoviePage } from "./movie-page/moviePage";
 export { default as CastleInTheSky } from "./castle-in-the-sky/castleInSky";
 export { default as SpiritedAway } from "./spirited-away/spiritedAway";
